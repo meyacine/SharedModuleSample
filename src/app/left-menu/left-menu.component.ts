@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {TranslationService} from '../shared/translation.service';
 
 @Component({
   selector: 'app-left-menu',
@@ -8,8 +7,7 @@ import {TranslationService} from '../shared/translation.service';
 })
 export class LeftMenuComponent implements OnInit {
 
-  constructor(private translationService: TranslationService) {
-    // console.log(this.translationService.getMessage('core.generic.id'));
+  constructor() {
   }
 
   ngOnInit() {

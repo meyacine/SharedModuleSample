@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import {TranslationService} from "./shared/translation.service";
 
 @Component({
   selector: 'app-root',
@@ -9,7 +8,7 @@ import {TranslationService} from "./shared/translation.service";
 export class AppComponent {
   title = 'app';
 
-  constructor(private translationService : TranslationService) {
+  constructor() {
     // console.log(this.translationService.getMessage('core.generic.id'));
   }
 }
